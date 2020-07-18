@@ -1,0 +1,52 @@
+.left-mac {
+    position: absolute;
+    left: 2%;
+    top: 190%;
+    width: 31%;
+    height: auto;
+
+}
+
+.ipad{
+    left: 27.665%;
+    width: 45.67%;
+    position: absolute;
+    margin-top: 4rem;
+}
+
+
+ .pos-video{
+    left: 0.5%;
+    width: 53.9%;
+    position: relative;
+    height: auto;
+    margin-top: 8.5%;
+
+} 
+
+ .pos-threeimage {
+    width: 94%; 
+    width: 95%;
+    margin-top: -129px;
+    margin-left: 20rem;
+    position: sticky;
+}
+
+ .container {
+    text-align: center;
+    margin-top: 85px;
+ }
+
+ h1 {
+     font-size: 3.5rem;
+ }
+
+ .pos-body{
+    text-align: -webkit-center;
+ }
+
+ .pos-text{
+      width: 72%;
+    font-size: 1.35rem;
+    text-align: center;
+ }

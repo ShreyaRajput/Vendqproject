@@ -1,0 +1,41 @@
+.container-fluid {
+    padding: 80px 20px;
+    max-width: 1516px;
+    background: #e9f6e8;
+}
+
+h1 {
+    width: 62%;
+    font-size: 57px;
+}
+
+h3 {
+    width: 44%;
+    font-size: 24px;
+    margin-bottom: 5rem;
+}
+
+.hero-image {
+    position: absolute;
+    left: 46%;
+    bottom: 0;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 60%;
+    height: calc(100% + 40px + 5vw);
+    margin-top: -5vw;
+    margin-left: 0;
+}
+
+img {
+    height: 37rem;
+    width: 46rem;
+    top: 7rem;
+    position: relative;
+    left: 15%;
+}
+
+.btn-success  {
+    width: 36%; 
+}

@@ -1,0 +1,68 @@
+<nav>
+    <div class="container">
+        <ul class="tab-bar">
+            <li class="active" class="list-title">
+                <a routerLink="/pos"> 
+                    <span class="tab-title-bar">
+                         <span class="full-title">Fast &amp; Easy, Cloud-Based POS</span>
+                    </span>
+                    <div class="tab-number">
+                    <span>1</span>
+                    </div>
+                </a>
+            </li>
+            <li class="list-title">
+                <a routerLink="/inventory"> 
+                    <span class="tab-title-bar">
+                         <span class="full-title"> Inventory Management</span>
+                    </span>
+                    <div class="tab-number">
+                    <span>2</span>
+                    </div>
+                </a>
+            </li>
+            <li class="list-title">
+                <a  [routerLink]="['multioutlet']"> 
+                    <span class="tab-title-bar">
+                         <span class="full-title">Multi-Outlet Scalability</span>
+                    </span>
+                    <div class="tab-number">
+                    <span>3</span>
+                    </div>
+                </a>
+            </li>
+            <li class="list-title">
+                <a routerLink="/reporting"> 
+                    <span class="tab-title-bar">
+                         <span class="full-title">Real-Time Reporting</span>
+                    </span>
+                    <div class="tab-number">
+                    <span>4</span>
+                    </div>
+                </a>
+            </li>
+            <li class="list-title">
+                <a routerLink="#ecommerce"> 
+                    <span class="tab-title-bar">
+                         <span class="full-title">Fast &amp; Ecommerce Integrations</span>
+                    </span>
+                    <div class="tab-number">
+                    <span>5</span>
+                    </div>
+                </a>
+            </li>
+            <li class="list-title">
+                <a routerLink="#support"> 
+                    <span class="tab-title-bar">
+                         <span class="full-title">Expert Advice &amp; Support</span>
+                    </span>
+                    <div class="tab-number">
+                    <span>6</span>
+                    </div>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+<router-outlet> </router-outlet>
